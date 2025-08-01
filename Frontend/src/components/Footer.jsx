@@ -19,7 +19,7 @@ const Footer = () => {
                 <div>
                     <h4>Support</h4>
                     <ul>
-                        <li>House no. 18, Devi singh Lane, Guwahati, Assam</li>
+                        <li>APJ Kalam Hostel, IIT Patna, Bihta, Bihar, India</li>
                         <li>alokpurbey2004@gmail.com</li>
                         <li>+91 8099620616</li>
                     </ul>
