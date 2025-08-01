@@ -41,4 +41,9 @@ newsLetterCron()
 connection();
 app.use(errorMiddleware);
 
+// ✅ Health check route
+app.get("/", (req, res) => {
+    res.send("Backend is running!");
+});
+
 export default app;
