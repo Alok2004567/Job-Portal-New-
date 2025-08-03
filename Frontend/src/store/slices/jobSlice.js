@@ -110,7 +110,7 @@ export const fetchJobs =
         async (dispatch) => {
             try {
                 dispatch(jobSlice.actions.requestForAllJobs());
-                let link = `${BACKEND_URL}/api/v1/job/getall?`;
+                let link = `${BACKEND_URL}/api/v1/job/getall`;
                 let queryParams = [];
                 if (searchKeyword) {
                     queryParams.push(`searchKeyword=${searchKeyword}`);
